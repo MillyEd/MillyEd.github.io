@@ -1,0 +1,148 @@
+.bg-example {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(148, 175, 146);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Home-text {
+    color: rgb(128, 146, 123); /* cor normal */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.Home-text:hover {
+    color: rgb(33, 116, 23); /* cor ao passar o mouse */
+}
+
+.Sobre-text {
+    color: rgb(128, 146, 123); /* cor normal */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.Sobre-text:hover {
+    color: rgb(33, 116, 23); /* cor ao passar o mouse */
+}
+
+.Cadast-text {
+    color: rgb(128, 146, 123); /* cor normal */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.Cadast-text:hover {
+    color: rgb(33, 116, 23); /* cor ao passar o mouse */
+}
+
+.Entrar-text {
+    color: rgb(128, 146, 123); /* cor normal */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.Entrar-text:hover {
+    color: rgb(33, 116, 23); /* cor ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #9b7272;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #8f4e4e;
+}
+
+body {
+    background-color: #f0d5dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Suaconta {
+    background: #f0d5dc;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: #9b7272;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.Suaconta h2 {
+    margin-bottom: 20px;
+    color: #8f4e4e;
+}
+
+input:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #6ac47c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #14a55d;
+}
+
+.signup-link {
+    margin-top: 15px;
+    display: block;
+    color: #666;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
